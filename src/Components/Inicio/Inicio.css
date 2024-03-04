@@ -79,7 +79,7 @@
     .contenido-inicio {
         flex-direction: column;
         margin-top: -40px;
-        align-items: normal;
+        padding: 0 40px;
     }
     .texto-inicio h2{
         margin-top: 70px;
@@ -90,6 +90,7 @@
 
     }
     .imagen-yerti-portafolio {
+        margin-top: 50px;
         width: 100% !important;
     }
     .botones-de-contacto button {

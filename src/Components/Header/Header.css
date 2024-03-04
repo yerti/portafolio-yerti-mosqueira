@@ -8,6 +8,7 @@
   padding: 0 60px;
   align-items: center;
   border-bottom: 1px solid var(--color-plomo);
+  z-index: 100;
 }
 .imagen-logo-header {
   width: 90px;
@@ -101,5 +102,10 @@ ul {
   }
   .contenido-lista-header a {
     margin: 0;
+  }
+  ul li a:before {
+    width: 0;
+    height: 0;
+    border: none;
   }
 }

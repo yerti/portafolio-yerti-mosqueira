@@ -4,6 +4,7 @@
   --color-morado: #AC8BEE;
   --color-verde: rgb(83, 213, 178);
   --color-plomo: #666666;
+  --color-plomo-claro: #1D1C1C
 }
 * {
   box-sizing: border-box;

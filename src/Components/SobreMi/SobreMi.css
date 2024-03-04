@@ -1,0 +1,87 @@
+.contenido-sobre-mi {
+  width: 100%;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 70px;
+  background-color: var(--color-plomo-claro);
+}
+.imagen-yerti-color {
+  width: 100%;
+  margin-top: 50px;
+}
+.contenido-texto-sobre-mi {
+  width: 70%;
+  margin-left: 40px;
+}
+.titulo-presentacion {
+  font-size: 60px;
+  margin-bottom: 50px;
+  color: var(--color-verde);
+  margin-top: 80px;
+}
+.contenido-sobre-mi p {
+  font-size: 20px;
+}
+.titulo-contactame {
+  font-size: 30px;
+}
+.contenido-foto-sobremi-color {
+  width: 50%;
+  position: relative;
+}
+.texto-contactanos {
+  position: absolute;
+  margin-top: -40%;
+  right: 14px;
+  margin-right: 20px;
+  background: var(--color-morado);
+  border-radius: 10px;
+  padding: 20px;
+}
+.text-img-information-sobre-mi {
+  display: flex;
+  align-items: center;
+}
+.icono-textos {
+  width: 20px;
+  margin-right: 12px;
+}
+.imagen-aspiral-morado-sobre-mi {
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 769px) {
+  .contenido-sobre-mi {
+    flex-direction: column-reverse;
+    align-items: normal;
+    padding: 0 40px;
+    padding-bottom: 80px;
+  }
+  .contenido-texto-sobre-mi {
+    width: 100%;
+    margin: 0;
+  }
+  .contenido-foto-sobremi-color {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .titulo-contactame {
+    font-size: 20px;
+  }
+  .text-img-information-sobre-mi p {
+    font-size: 14px;
+  }
+  .contenido-sobre-mi p {
+    font-size: 16px;
+  }
+  .imagen-yerti-color {
+    margin-top: 0;
+  }
+  .texto-contactanos {
+    right: 0;
+  }
+}
