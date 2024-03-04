@@ -3,12 +3,11 @@
   padding: 0 60px;
   display: flex;
   align-items: center;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
   background-color: var(--color-plomo-claro);
 }
 .imagen-yerti-color {
   width: 100%;
-  margin-top: 50px;
 }
 .contenido-texto-sobre-mi {
   width: 70%;
