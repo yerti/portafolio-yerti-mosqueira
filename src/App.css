@@ -1,0 +1,17 @@
+:root {
+  --color-negro: #000000;
+  --color-blanco: #FFFFFF;
+  --color-morado: #AC8BEE;
+  --color-verde: rgb(83, 213, 178);
+  --color-plomo: #666666;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: var(--color-negro);
+  color: var(--color-blanco);
+}
