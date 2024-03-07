@@ -48,6 +48,9 @@
     margin-top: -78px;
     margin-left: -23px;
 }
+.contenido-img-inicios {
+    width: 100%;
+}
 
 @keyframes aparecer {
     0% {
@@ -91,7 +94,7 @@
     }
     .imagen-yerti-portafolio {
         margin-top: 50px;
-        width: 100% !important;
+        width: 70% !important;
     }
     .botones-de-contacto button {
         width: 120px;

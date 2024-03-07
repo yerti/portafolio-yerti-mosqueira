@@ -14,7 +14,9 @@ export default function Inicio() {
                     <button><a href="https://wa.link/fht3vb" target="_blank">WhatsApp</a></button>
                     <button><a href="https://github.com/yerti" target="_blank">GitHub</a></button>
                 </div>
-                <img className='aspiral-verde-header' src={imagenes["img-verdes"]} alt="" />
+                <div className='contenido-img-inicios'>
+                    <img className='aspiral-verde-header' src={imagenes["img-verdes"]} alt="" />
+                </div>
             </div>
             <img className='imagen-yerti-portafolio' src={imagenes["img-yerti"]} alt="imagen de perfil yertis" />
         </div>

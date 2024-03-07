@@ -1,10 +1,10 @@
 :root {
   --color-negro: #000000;
-  --color-blanco: #FFFFFF;
-  --color-morado: #AC8BEE;
+  --color-blanco: #ffffff;
+  --color-morado: #ac8bee;
   --color-verde: rgb(83, 213, 178);
   --color-plomo: #666666;
-  --color-plomo-claro: #1D1C1C
+  --color-plomo-claro: #1d1c1c;
 }
 * {
   box-sizing: border-box;
@@ -15,4 +15,8 @@ body {
   font-family: "Kanit", sans-serif;
   background-color: var(--color-negro);
   color: var(--color-blanco);
+}
+.espacio-habilidades {
+  width: 100%;
+  height: 120px;
 }

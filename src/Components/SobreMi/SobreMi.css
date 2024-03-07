@@ -14,7 +14,7 @@
   margin-left: 40px;
 }
 .titulo-presentacion {
-  font-size: 60px;
+  font-size: 45px;
   margin-bottom: 50px;
   color: var(--color-verde);
   margin-top: 80px;
@@ -56,7 +56,6 @@
     flex-direction: column-reverse;
     align-items: normal;
     padding: 0 40px;
-    padding-bottom: 80px;
   }
   .contenido-texto-sobre-mi {
     width: 100%;
@@ -68,6 +67,9 @@
 }
 
 @media screen and (max-width: 426px) {
+  .contenido-sobre-mi {
+    padding-bottom: 80px;
+  }
   .titulo-contactame {
     font-size: 20px;
   }
@@ -82,5 +84,11 @@
   }
   .texto-contactanos {
     right: 0;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .imagen-aspiral-morado-sobre-mi {
+    width: 50%;
   }
 }
