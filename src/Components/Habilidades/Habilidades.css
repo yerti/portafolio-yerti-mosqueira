@@ -35,20 +35,21 @@
 }
 
 @media screen and (max-width: 769px) {
-    .contenido-habilidades {
-        padding: 0 40px;
-    }
-    .contenido-total-de-habilidades {
-        grid-template-columns: 1fr;
-        margin: 0 10px;
-    }
+  .contenido-habilidades {
+    padding: 0 40px;
+  }
+  .contenido-total-de-habilidades {
+    grid-template-columns: 1fr;
+    margin: 0 10px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .contenido-tarjetas-habilidades {
+    grid-template-columns: 1fr;
+  }
 }
 @media screen and (max-width: 376px) {
-    .titulo-habilidades {
-        font-size: 40px;
-    }
-    .contenido-tarjetas-habilidades {
-        grid-template-columns: 1fr;
-    }
+  .titulo-habilidades {
+    font-size: 40px;
+  }
 }
-
