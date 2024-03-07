@@ -37,10 +37,14 @@
 @media screen and (max-width: 769px) {
   .contenido-habilidades {
     padding: 0 40px;
+    padding-bottom: 110px;
   }
   .contenido-total-de-habilidades {
     grid-template-columns: 1fr;
     margin: 0 10px;
+  }
+  .titulo-habilidades {
+    font-size: 46px;
   }
 }
 @media screen and (max-width: 428px) {
