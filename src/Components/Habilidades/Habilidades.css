@@ -34,6 +34,12 @@
   grid-template-columns: 1fr 1fr;
 }
 
+@media screen and (max-width: 1025px) {
+  .contenido-total-de-habilidades {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media screen and (max-width: 769px) {
   .contenido-habilidades {
     padding: 0 40px;

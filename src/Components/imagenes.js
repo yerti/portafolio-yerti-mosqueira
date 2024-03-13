@@ -25,6 +25,12 @@ import Css from '../assets/icons8-css.svg';
 import React from '../assets/icons8-reaccionar-nativo.svg';
 import Angular from '../assets/icons8-angular.svg';
 import Node from '../assets/icons8-nodejs.svg';
+import Calculator from '../assets/Tip-calculator.jpeg';
+import Countries from '../assets/rest-countries-api.jpeg';
+import Social from '../assets/Social-Media-Dashboard.jpeg';
+import Gestor from '../assets/gestor-facturas.jpeg';
+import Backend from '../assets/backend.jpg';
+import BaseDeDatos from '../assets/base-de-datos.jpg';
 
 
 const imagenes = {
@@ -55,6 +61,12 @@ const imagenes = {
     "img-node": Node,
     "img-react": React,
     "img-angular": Angular,
+    "img-tip-calculator": Calculator,
+    "img-countries": Countries,
+    'img-social': Social,
+    "img-gestor-facturas": Gestor,
+    "img-backend": Backend,
+    "img-base-de-datos": BaseDeDatos,
 }
 
 export default imagenes;

@@ -78,7 +78,7 @@
     font-size: 12px;
   }
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 910px) {
   .contenido-inicio {
     flex-direction: column;
     margin-top: -40px;
