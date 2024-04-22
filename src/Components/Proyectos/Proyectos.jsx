@@ -31,14 +31,6 @@ export default function Proyectos() {
                     url='https://rest-countries-api-gamma-five.vercel.app/inicio'
                     codigo='https://github.com/yerti/rest-countries-api'
                 ></Tarjetas>
-                <Tarjetas
-                    imagenes={imagenes}
-                    textImg='img-social'
-                    title='Social Media Dashboard'
-                    descriptions='Es una página web creada con HTML5, CSS nativo y JavaScript. Esta página es responsiva, lo que significa que se adapta automáticamente a cualquier dispositivo en el que se visualice. Además, cuenta con un botón que permite activar el modo oscuro. Su propósito principal es mostrar la información de un perfil de una persona.'
-                    url='https://yerti.github.io/Social-Media-Dashboard/'
-                    codigo='https://github.com/yerti/Social-Media-Dashboard'
-                ></Tarjetas>
 
                 <TarjetasBackend
                     imagenes={imagenes}
