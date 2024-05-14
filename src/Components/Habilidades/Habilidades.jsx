@@ -7,7 +7,6 @@ export default function Habilidades() {
     return (
         <div className='contenido-habilidades'>
             <h3 className='titulo-habilidades'>HABILIDADES TÉCNICAS</h3>
-            <img className='habilidades-aspiral-verde' src={imagenes["img-verdes"]} alt="aspirales verdes" />
             <div className='contenido-total-de-habilidades'>
                 <div className='tarjeta-habilidades'>
                     <h3>LENGUAJES DE PROGRAMACIÓN:</h3>

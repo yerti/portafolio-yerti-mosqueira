@@ -1,5 +1,5 @@
 .contenido-tarjetas {
-  width: 250px;
+  width: 380px;
   border: 2px solid var(--color-morado);
   box-shadow: 0px 0px 20px -4px #53d5b2;
   background-color: var(--color-negro);
@@ -8,7 +8,7 @@
   z-index: 88;
 }
 .imagen-contenido-tarjetas {
-  width: 247px;
+  width: 377px;
   border-radius: 10px 10px 0 0;
 }
 .contenido-textos-tarjetas {
@@ -48,3 +48,12 @@
     color: var(--color-blanco);
     font-size: 16px;
 }
+@media screen and (max-width: 770px) {
+  .contenido-tarjetas {
+    width: 260px;
+  }
+  .imagen-contenido-tarjetas {
+    width: 257px;
+  }
+}
+

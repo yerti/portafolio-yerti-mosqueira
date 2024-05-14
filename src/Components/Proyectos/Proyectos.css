@@ -4,22 +4,17 @@
   background-color: var(--color-plomo-claro);
   position: relative;
 }
-.aspiral-morado-proyectos {
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin-top: -30px;
-}
+
 .contenido-tarjetas-proyecto {
   padding: 0 30px;
   display: grid;
   justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .titulo-proyectos {
   font-size: 65px;
   margin-bottom: 50px;
-  color: var(--color-verde);
+  color: var(--color-blanco);
 }
 
 @media screen and (max-width: 1025px) {
@@ -38,8 +33,10 @@
 @media screen and (max-width: 426px) {
   .contenido-tarjetas-proyecto {
     grid-template-columns: 1fr;
+    padding: 0;
   }
-  .aspiral-morado-proyectos {
-    margin-top: 65px;
+  .titulo-proyectos {
+    font-size: 52px;
   }
+  
 }

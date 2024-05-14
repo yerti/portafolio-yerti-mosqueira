@@ -7,24 +7,25 @@
   background-color: var(--color-plomo-claro);
 }
 .imagen-yerti-color {
-  width: 75%;
+  width: 100%;
 }
 .contenido-texto-sobre-mi {
   width: 70%;
   margin-left: 40px;
 }
 .titulo-presentacion {
-  font-size: 45px;
-  margin-bottom: 50px;
-  color: var(--color-verde);
+  font-size: 50px;
+  margin-bottom: 25px;
+  color: var(--color-morado);
   margin-top: 80px;
 }
 .contenido-sobre-mi p {
   font-size: 20px;
 }
-.titulo-contactame {
-  font-size: 30px;
+.presentacion-sobre-mi {
+  color: var(--color-blanco);
 }
+
 .contenido-foto-sobremi-color {
   width: 50%;
   position: relative;
@@ -46,10 +47,7 @@
   width: 20px;
   margin-right: 12px;
 }
-.imagen-aspiral-morado-sobre-mi {
-  position: absolute;
-  right: 0;
-}
+
 
 @media screen and (max-width: 911px) {
   .contenido-sobre-mi {
@@ -68,16 +66,13 @@
     margin: 0;
   }
   .contenido-foto-sobremi-color {
-    width: 90%;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 426px) {
   .contenido-sobre-mi {
     padding-bottom: 80px;
-  }
-  .titulo-contactame {
-    font-size: 20px;
   }
   .text-img-information-sobre-mi p {
     font-size: 14px;
@@ -86,7 +81,7 @@
     font-size: 16px;
   }
   .imagen-yerti-color {
-    width: 80%;
+    width: 100%;
     margin-top: 0;
   }
   .texto-contactanos {
@@ -94,8 +89,3 @@
   }
 }
 
-@media screen and (max-width: 376px) {
-  .imagen-aspiral-morado-sobre-mi {
-    width: 50%;
-  }
-}

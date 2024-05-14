@@ -11,7 +11,7 @@
   z-index: 100;
 }
 .imagen-logo-header {
-  width: 90px;
+  width: 150px;
 }
 .menu-amburguesa-header {
   display: none;
@@ -81,6 +81,9 @@ ul {
   .contenido-header {
     height: 70px;
     padding: 0 40px;
+  }
+  .imagen-logo-header {
+    width: 110px;
   }
   .contenido-lista-header {
     display: none;

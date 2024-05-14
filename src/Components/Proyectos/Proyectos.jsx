@@ -8,7 +8,6 @@ export default function Proyectos() {
     return (
         <div className='contenido-proyecto'>
             <h3 className='titulo-proyectos'>Proyectos:</h3>
-            <img className='aspiral-morado-proyectos' src={imagenes["img-morados"]} alt="" />
             <div className='contenido-tarjetas-proyecto'>
                 <Tarjetas
                     imagenes={imagenes}

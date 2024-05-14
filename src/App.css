@@ -1,10 +1,10 @@
 :root {
   --color-negro: #000000;
   --color-blanco: #ffffff;
-  --color-morado: #ac8bee;
-  --color-verde: #53d5b2;
+  --color-morado: #50C8EF;
+  --color-verde: #1077B5;
   --color-plomo: #666666;
-  --color-plomo-claro: #1d1c1c;
+  --color-plomo-claro: #111827;
 }
 * {
   box-sizing: border-box;
@@ -12,6 +12,7 @@
   padding: 0;
 }
 body {
+
   font-family: "Kanit", sans-serif;
   background-color: var(--color-negro);
   color: var(--color-blanco);
