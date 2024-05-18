@@ -5,7 +5,7 @@ import imagenes from '../imagenes'
 export default function Contactame() {
   return (
     <div className='content-contact'>
-      <h2 className='title-contact'>Contactame:</h2>
+      <h2 className='title-contact'>Contáctame:</h2>
       <div className='contenido-imagenes-form'>
         <form action="https://formsubmit.co/yerti0818@gmail.com" method="POST" className='content-information-contact'>
           <div className='form-content'>

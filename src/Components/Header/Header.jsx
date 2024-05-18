@@ -21,7 +21,7 @@ export default function Header() {
                         <li><a href="#Sobremi">Sobre Mi</a></li>
                         <li><a href="#Habilidades">Habilidades</a></li>
                         <li><a href="#Proyectos">Proyectos</a></li>
-                        <li><a href="#Contactame">Contactame</a></li>
+                        <li><a href="#Contactame">Contáctame</a></li>
                     </ul>
                 </div>
             </div>
