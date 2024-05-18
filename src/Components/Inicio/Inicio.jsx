@@ -54,7 +54,6 @@ export default function Inicio() {
                 <p className='texto-desarrolladora'>- Desarrolladora Full-Stack</p>
                 <div className='botones-de-contacto'>
                     <button><a href="https://www.linkedin.com/in/yerti/" target="_blank">LinkedIn</a></button>
-                    <button><a href="https://wa.link/fht3vb" target="_blank">WhatsApp</a></button>
                     <button><a href="https://github.com/yerti" target="_blank">GitHub</a></button>
                 </div>
                 <div>

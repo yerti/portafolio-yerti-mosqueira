@@ -1,4 +1,5 @@
 import './App.css';
+import Contactame from './Components/Contactame/Contactame';
 import Espacio from './Components/Espacio/Espacio';
 import Habilidades from './Components/Habilidades/Habilidades';
 import Header from './Components/Header/Header';
@@ -17,6 +18,8 @@ function App() {
       <Habilidades />
       <div id='Proyectos' className='espacio-proyectos'></div>
       <Proyectos />
+      <div id='Contactame' className='espacio-contactame'></div>
+      <Contactame />
     </div>
   );
 }

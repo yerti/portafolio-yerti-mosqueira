@@ -29,6 +29,9 @@ import Social from '../assets/Social-Media-Dashboard.jpeg';
 import Gestor from '../assets/gestor-facturas.jpeg';
 import Backend from '../assets/backend.jpg';
 import BaseDeDatos from '../assets/base-de-datos.jpg';
+import Imagen1 from '../assets/imagen-1a.png';
+import Imagen2 from '../assets/imagen-3a.png';
+import Imagen3 from '../assets/imagen-2a.png';
 
 
 const imagenes = {
@@ -63,6 +66,9 @@ const imagenes = {
     "img-gestor-facturas": Gestor,
     "img-backend": Backend,
     "img-base-de-datos": BaseDeDatos,
+    "img-uno": Imagen1,
+    "img-dos": Imagen2,
+    "img-tres": Imagen3,
 }
 
 export default imagenes;
